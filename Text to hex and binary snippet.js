@@ -59,10 +59,10 @@ for (var i = 0; i < numbers.length; i++) {
     }
     if (tempBia == "01000000") {
 
-        finalString += " 00100000"
+        finalString += "00100000 "
         biaArray[i] = "00100000"
-    } else {
-        finalString += " " + tempBia
+    } else { 
+        finalString +=  tempBia + " " 
         biaArray[i] = tempBia
     }
     tempBia = '';
